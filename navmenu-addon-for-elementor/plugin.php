@@ -90,7 +90,7 @@ class Plugin {
 				$class
 			)
 		);
-
+$filename = ELEMENTOR_MENUS_PATH . $filename . '.php';
 
 		if ( is_readable( $filename ) ) {
 			include( $filename );
