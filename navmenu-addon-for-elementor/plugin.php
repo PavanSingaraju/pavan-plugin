@@ -284,14 +284,7 @@ $filename = ELEMENTOR_MENUS_PATH . $filename . '.php';
 	/**
 	 * Plugin constructor.
 	 */
-	private function __construct() {
-		spl_autoload_register( [ $this, 'autoload' ] );
 
-		$this->_includes();
-
-		$this->add_actions();
-
-		if ( is_admin() ) {
 			// new Admin();
 			// new License\Admin();
 		}
