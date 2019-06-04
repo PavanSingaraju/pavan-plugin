@@ -24,6 +24,7 @@ define( 'ELEMENTOR_MENUS_PATH', plugin_dir_path( ELEMENTOR_MENUS__FILE__ ) );
 define( 'ELEMENTOR_MENUS_MODULES_PATH', ELEMENTOR_MENUS_PATH . 'modules/' );
 define( 'ELEMENTOR_MENUS_URL', plugins_url( '/', ELEMENTOR_MENUS__FILE__ ) );
 define( 'ELEMENTOR_MENUS_ASSETS_URL', ELEMENTOR_MENUS_URL . 'assets/' );
+define( 'ELEMENTOR_MENUS_MODULES_URL', ELEMENTOR_MENUS_URL . 'modules/' );
 
 /**
  * Load gettext translate for our text domain.
