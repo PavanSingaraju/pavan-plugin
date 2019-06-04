@@ -13,17 +13,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Plugin {
 
 	/**
-	 * @var Plugin
+	 *
 	 */
 	private static $_instance;
 
 	/**
-	 * @var Manager
+	 *
 	 */
 	private $_modules_manager;
 
 	/**
-	 * @var array
+	 *
 	 */
 	private $_localize_settings = [];
 
