@@ -298,7 +298,7 @@ $filename = ELEMENTOR_MENUS_PATH . $filename . '.php';
 	}
 }
 
-if ( ! defined( '' ) ) {
+if ( ! defined( 'ELEMENTOR_MENUS_TESTS' ) ) {
 	// In tests we run the instance manually.
 	Plugin::instance();
 }
